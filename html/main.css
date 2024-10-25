@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+    header {
+        padding: 16px 0;
+        background-color: rgba(44, 40, 40, 0.24);
+        font-family: "Sixtyfour Convergence", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "BLED" 0,
+          "SCAN" 0,
+          "XELA" 0,
+          "YELA" 0;
+    }
+     section h2{
+        padding: 16px 0;
+        font-family: "Sixtyfour Convergence", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "BLED" 0,
+          "SCAN" 0,
+          "XELA" 0,
+          "YELA" 0;
+    }
+
+    ul img{
+        margin-top: 20px;
+        margin-inline: 10px;
+    }
+
+    body, input, textarea {
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: aliceblue;
+  
+    }
+
+   
+header h1{
+
+    margin-left: 16px;
+}
+    header nav li{
+        display: inline;
+        margin-left: 30px;
+        font-size: 18px;
+        
+    }
+    header nav li a {
+        color: rgb(34, 60, 207);
+        text-decoration: none;
+
+    }
+
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista img{
+    height: 24px;
+}
+.lista li{
+    display: inline;
+}
+section .container {
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+
+
+.LOJA{
+    margin-right: 22px;
+}
+
+.LOJA{
+    transition: transform 0.3  ease-in-out, filter 0.3 ease-in-out;
+}
+.LOJA:hover{
+    filter: grayscale(50%) sepia(30%) contrast(120%);
+    transform: scale(1.05);
+    filter: brightness(120%);
+}
+
+.NINTENDO{
+    transition: transform 0.3  ease-in-out;
+}
+.NINTENDO:hover{
+    filter: grayscale(50%) sepia(30%) contrast(120%);
+    transform: scale(1.05);
+    filter: brightness(120%);
+}
+
+.xbox {
+    transition: transform 0.3  ease-in-out;
+}
+.xbox:hover{
+    filter: grayscale(50%) sepia(30%) contrast(120%);
+    transform: scale(1.05);
+    filter: brightness(120%);
+}
+
+.PLAY{
+    transition: transform 0.3  ease-in-out;
+}
+.PLAY:hover{
+    filter: grayscale(50%) sepia(30%) contrast(120%);
+    transform: scale(1.05);
+    filter: brightness(120%);
+}
+  
+.INSTA{
+    height: 24px;
+}
+.face{
+    height: 24px;
+}
+
+.yotube{
+    height: 24px;
+
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact2{
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+form input,
+form text,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+    width: 100%;
+}
+    
+
+.links li {
+    display: inline;
+    margin-right: 8px;
+    
+}
+
+.link1{
+    text-decoration: none;
+}
+
+#contact .container{
+    font-family: "Sixtyfour Convergence", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "BLED" 0,
+          "SCAN" 0,
+          "XELA" 0,
+          "YELA" 0;
+    
+}
+
+.endereço2{
+    margin-bottom: 8px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+background-color: rgba(255, 254, 254, 0.644);
+}
+
+input:focus, textarea:focus{
+outline-color: red;
+}
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 16px;
+    
+
